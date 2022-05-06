@@ -1,0 +1,64 @@
+body {
+    background:#1B9B91;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+  }
+  
+  .wrapper {
+    width: 800px;
+    margin: 100px auto;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    border-color: white;
+    padding-top: 15vh;
+  }
+  
+  h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white ;
+    letter-spacing: 6px;
+  }
+  
+  .timerDisplay{
+    font-size: 2em;
+    color: #DAF7A6 ;
+  }
+   
+  button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: #ffa600;
+    color: #2E2E2A;
+    border: solid 1px  white ;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: whitesmoke;
+  }
+  #startTimer{
+    background-color: #1BAF00  ;
+  }
+  #pauseTimer{
+    background-color: #B43911 ;
+    color: whitesmoke;
+  }
+  #resetTimer{
+    background-color: #F4F677 ;
+  }
+  button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: #ffa600;
+  }
